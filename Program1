@@ -1,0 +1,21 @@
+public class Program1 {
+
+	public static void main(String[] args) {
+		
+		int Math = 97;
+		int Chemistry = 98;
+		int Physics = 96;
+		int Biology = 97;
+		int Computer = 99;
+		
+		int total = Math + Chemistry + Physics + Biology + Computer;
+		double avg = total / 5;
+		
+		System.out.println("Student's Name: Aayushman Das");
+		System.out.println("The Total Marks: " + total);
+		System.out.println("The Average Marks: " + avg);
+		
+		
+	}
+
+}
