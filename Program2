@@ -1,0 +1,21 @@
+public class Program2 {
+
+	public static void main(String[] args) {
+		
+		int s = 10;
+		int ln = 12;
+		int b = 9;
+		
+		int perimeterOfSquare = 4 * s;
+		int areaOfSquare = s * s;
+		int perimeterOfRectangle = 2 * (ln + b);
+		int areaOfRectangle = ln * b;
+		
+		System.out.println("The Perimenter of the Square: " + perimeterOfSquare);
+		System.out.println("The Area of the Square: " + areaOfSquare);
+		System.out.println("The Perimeter of the Rectangle: " + perimeterOfRectangle);
+		System.out.println("The Area of the Rectangle: " + areaOfRectangle);
+		
+	}
+
+}
