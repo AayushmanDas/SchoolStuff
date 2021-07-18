@@ -1,0 +1,13 @@
+public class Program3 {
+
+	public static void main(String[] args) {
+		
+		int originalPrice = 35423;
+		double discountedPrice = originalPrice - (20.0/100.0 * originalPrice);
+		
+		System.out.println("The Original Price: " + originalPrice);
+		System.out.println("The Price after discount: " + discountedPrice);
+		
+	}
+
+}
