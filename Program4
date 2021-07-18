@@ -1,0 +1,18 @@
+public class Program4 {
+
+	public static void main(String[] args) {
+		
+		int a = 34;
+		int b = 79;
+		
+		System.out.println("Before interchange a=" + a + " b=" + b);
+		
+		int c = a;
+		a = b;
+		b = c;
+		
+		System.out.println("After interchange a=" + a + " b=" + b);
+		
+	}
+
+}
